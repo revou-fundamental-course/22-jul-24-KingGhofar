@@ -1,0 +1,140 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+}
+
+header {
+  background-color: #fff;
+  padding: 20px 0;
+  box-shadow: 0 2px 4px #fff(0, 0, 0, 0.1);
+}
+img {
+  max-width: 100%;
+  height: 700px;
+}
+
+.login {
+  position: relative;
+  height: 100vh;
+  display: grid;
+  align-items: center;
+}
+.login__img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+nav {
+  display: black;
+  unicode-bidi: isolate;
+  text-align: center;
+}
+
+nav ul {
+  color: rgb(7, 7, 150);
+  list-style: none;
+  padding: 50;
+  margin: 50;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333333;
+}
+.hero h1 {
+  font-size: 3em;
+  margin-bottom: 10px;
+  
+}
+
+.hero p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.hero button {
+  padding: 15px 30px;
+  background-color: #df240f;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.destinations, .packages, .about, .contact {
+  margin: 0px;
+  padding: 50px;
+  background-color: #fff;
+  margin-bottom: 30px;
+}
+
+.destination-grid, .package-grid {
+  margin: 0px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.destination, .package {
+  margin: 0px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.destination img, .package img {
+  margin: 0px;
+  width: 100%;
+}
+
+.destination h3, .package h3 {
+  margin: 0px;
+  margin-bottom: 5px;
+}
+
+.destination p, .package p {
+  margin-bottom: 15px;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact label {
+  margin-bottom: 5px;
+}
+
+.contact input, .contact textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+
+.contact button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #602669;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
